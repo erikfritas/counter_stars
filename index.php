@@ -7,6 +7,7 @@
 
 if (!isset($_GET['username'])){
     echo "<h2>Faltou o username...</h2>";
+    echo "<h4>Tente colocar isso no final: ?username=erikfritas</h4>";
     die();
 }
 
