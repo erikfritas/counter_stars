@@ -95,5 +95,8 @@ $repositorio = explode('/', substr($name_match, $pos_nome))[2];
 // formatando o numero em notação inglesa
 $max_stars = number_format($max_stars);
 
-echo "Um dos repositórios que tiveram mais estrelas foi: $repositorio<br>";
-echo "Pois possui $max_stars estrelas";
+echo
+    '<div class="counter_stars">'.
+    "Um dos repositórios que tiveram mais estrelas foi: $repositorio<br>".
+    "Pois possui $max_stars estrelas".
+    '</div>';
